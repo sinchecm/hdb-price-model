@@ -1,0 +1,19 @@
+# Cached / re-derivable data — regenerated automatically by train_model.py
+data/
+*.parquet
+
+# Training logs / scratch output
+train_log.txt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+venv/
+.venv/
+
+# OS cruft
+.DS_Store
